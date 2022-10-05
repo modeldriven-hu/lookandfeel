@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+        id="FlatLafLookAndFeel"
+        name="ModelDriven LookAndFeel"
+        version="1.0"
+        provider-name="modeldriven.hu"
+        class="hu.modeldriven.cameo.LFPlugin">
+
+    <requires>
+        <api version="1.2"/>
+    </requires>
+
+    <runtime>
+        <library name="lookandfeel.jar"/>
+        <library name="flatlaf-2.5.jar"/>
+    </runtime>
+</plugin>

@@ -1,4 +1,4 @@
-package hu.modeldriven.cameo;
+package hu.modeldriven.cameo.lf.action;
 
 import com.nomagic.actions.AMConfigurator;
 import com.nomagic.actions.ActionsCategory;

@@ -140,5 +140,10 @@
             <artifactId>flatlaf</artifactId>
             <version>2.5</version>
         </dependency>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf-intellij-themes</artifactId>
+            <version>2.5</version>
+        </dependency>
     </dependencies>
 </project>

@@ -1,7 +1,9 @@
-package hu.modeldriven.cameo;
+package hu.modeldriven.cameo.lf;
 
 import com.nomagic.magicdraw.actions.ActionsConfiguratorsManager;
 import com.nomagic.magicdraw.plugins.Plugin;
+import hu.modeldriven.cameo.lf.action.LFAction;
+import hu.modeldriven.cameo.lf.action.LFConfigurator;
 
 public class LFPlugin extends Plugin {
 

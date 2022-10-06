@@ -1,4 +1,4 @@
-package hu.modeldriven.cameo;
+package hu.modeldriven.cameo.lf.action;
 
 import com.formdev.flatlaf.FlatLightLaf;
 import com.nomagic.magicdraw.actions.MDAction;
@@ -21,7 +21,7 @@ public class LFAction extends MDAction {
             UIManager.setLookAndFeel( new FlatLightLaf() );
         } catch( Exception ex ) {
             System.err.println( "Failed to initialize LaF" );
-        }
+         }
 
         SwingUtilities.updateComponentTreeUI(MDDialogParentProvider.getProvider().getDialogParent(true));
     }

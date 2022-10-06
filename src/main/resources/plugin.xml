@@ -4,7 +4,7 @@
         name="ModelDriven LookAndFeel"
         version="1.0"
         provider-name="modeldriven.hu"
-        class="hu.modeldriven.cameo.LFPlugin">
+        class="hu.modeldriven.cameo.lf.LFPlugin">
 
     <requires>
         <api version="1.2"/>
@@ -13,5 +13,6 @@
     <runtime>
         <library name="lookandfeel.jar"/>
         <library name="flatlaf-2.5.jar"/>
+        <library name="flatlaf-intellij-themes-2.5.jar"/>      
     </runtime>
 </plugin>

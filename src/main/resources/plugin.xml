@@ -13,6 +13,6 @@
     <runtime>
         <library name="lookandfeel.jar"/>
         <library name="flatlaf-2.5.jar"/>
-        <library name="flatlaf-intellij-themes-2.5.jar"/>      
+        <library name="flatlaf-intellij-themes-2.5.jar"/>
     </runtime>
 </plugin>

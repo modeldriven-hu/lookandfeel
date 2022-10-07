@@ -8,9 +8,9 @@ public class ThemeSelectorDialog extends JDialog {
     private final ThemeSelectorPanel panel;
 
     public ThemeSelectorDialog(Frame parent) {
-        super(parent, "", false);
+        super(parent, "Flat LF themes", false);
 
-        this.panel = new ThemeSelectorPanel();
+        this.panel = new ThemeSelectorPanel(this);
 
         this.setContentPane(panel);
         this.pack();
@@ -19,12 +19,4 @@ public class ThemeSelectorDialog extends JDialog {
         this.setDefaultCloseOperation(WindowConstants.HIDE_ON_CLOSE);
     }
 
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-
-            var dialog = new ThemeSelectorDialog(null);
-            dialog.setVisible(true);
-
-        });
-    }
 }

@@ -5,6 +5,14 @@
     <formats>
         <format>zip</format>
     </formats>
+    <dependencySets>
+        <dependencySet>
+            <includes>
+                <include>com.formdev:flatlaf</include>
+                <include>com.formdev:flatlaf-intellij-themes</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
     <fileSets>
         <fileSet>
             <directory>${project.build.directory}</directory>

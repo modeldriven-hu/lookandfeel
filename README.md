@@ -16,13 +16,6 @@ FlatLAF look and feel theme (https://www.formdev.com/flatlaf/).
 
 ![image](https://user-images.githubusercontent.com/8182138/194689638-86fe9c18-868b-44a4-a4e8-8d8419bac6af.png)
 
-
-# Requirements
-
-- Cameo/MagicDraw latest
-- Java JDK 11
-- Maven
-
 # Download release
 
 You can directly download the release without build from the following address:
@@ -30,6 +23,12 @@ You can directly download the release without build from the following address:
 https://github.com/modeldriven-hu/lookandfeel/releases/tag/1.0.0
 
 # Build the project
+
+## Requirements
+
+- Cameo/MagicDraw latest
+- Java JDK 11
+- Maven
 
 ## Check out the repository
 

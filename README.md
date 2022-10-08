@@ -44,6 +44,10 @@ or when using PowerShell:
 
 `$env:CAMEO_ROOT = "C:/Home/Tools/Cameo"`
 
+or under Linux:
+
+'export CAMEO_ROOT=/home/zsolt/tools/cameo'
+
 ## Building
 
 Execute `mvn clean package` in the git folder

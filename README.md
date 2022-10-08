@@ -79,7 +79,7 @@ and overwrite the existing `classpath.jar` with the downloaded one.
 You need also to add flatlaf-2.5.jar to the `CAMEO_ROOT/lib` folder. The jar file is located in `hu.modeldriven.lookandfeel.zip`
 which you either downloaded from the website our built yourself.
 
-* Copy `flatlaf-2.5.jar` file into the `CAMEO_ROOT/lib`
+* Copy `flatlaf-2.5.jar` file into `CAMEO_ROOT/lib` folder
 
 ## Restart
 

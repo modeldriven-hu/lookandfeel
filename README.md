@@ -74,7 +74,7 @@ An alternative solution is to simply replace the existing classpath.jar file wit
 Just download the file from https://github.com/modeldriven-hu/lookandfeel/releases/download/1.0.0/classpath.jar
 and overwrite the existing `classpath.jar` with the downloaded one.
 
-### Add flatlaf-2.5.jar to lib 
+## Add flatlaf-2.5.jar to lib 
 
 You need also to add flatlaf-2.5.jar to the `CAMEO_ROOT/lib` folder. The jar file is located in `hu.modeldriven.lookandfeel.zip`
 which you either downloaded from the website our built yourself.

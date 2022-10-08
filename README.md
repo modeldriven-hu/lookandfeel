@@ -12,6 +12,9 @@ the fonts are very small, especially on a smaller (14-inch) screen.
 I created a plugin enabling users to use the wonderful open source 
 FlatLAF look and feel theme (https://www.formdev.com/flatlaf/). 
 
+![image](https://user-images.githubusercontent.com/8182138/194689638-86fe9c18-868b-44a4-a4e8-8d8419bac6af.png)
+
+
 # Requirements
 
 - Cameo/MagicDraw latest

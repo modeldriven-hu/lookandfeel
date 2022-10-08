@@ -23,7 +23,13 @@ FlatLAF look and feel theme (https://www.formdev.com/flatlaf/).
 - Java JDK 11
 - Maven
 
-# Usage
+# Download release
+
+You can directly download the release without build from the following address:
+
+https://github.com/modeldriven-hu/lookandfeel/releases/tag/1.0.0
+
+# Build the project
 
 ## Check out the repository
 
@@ -39,9 +45,11 @@ or when using PowerShell:
 
 `$env:CAMEO_ROOT = "C:/Home/Tools/Cameo"`
 
-## Build project
+## Building
 
-`mvn package`
+Execute `mvn clean package` in the git folder
+
+# Installation
 
 ## Extract into Cameo plugins folder
 
@@ -65,7 +73,7 @@ This file contains the list of dependencies.
 
 In order to use the plugin you need to restart Cameo.
 
-## Usage
+# Usage
 
 In the `Options` menu select `Flat look and feel` then select
 the desired theme and press Apply.

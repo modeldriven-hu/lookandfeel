@@ -61,11 +61,24 @@ some issues with the dependent FlatLaf library. The solution for the
 problem right now is to add the library to the classpath of Cameo directly.
 
 In `CAMEO_ROOT/lib` folder there is a file called `classpath.jar`. This is a 
-standard zip file. Extract the file `META-INF/MANIFEST.MF` to some location. 
-This file contains the list of dependencies. 
+standard zip file. 
 
-* Add `flatlaf-2.5.jar` to the end of the file right after `y.jar`
+### Modify classpath.jar by hand
+* Extract the file `META-INF/MANIFEST.MF` to some location. This file contains the list of dependencies. 
+* Add  the text `flatlaf-2.5.jar` to the end of the file right after `y.jar`
 * Save the file and copy it back to the jar file
+
+### Replace classpath.jar 
+
+An alternative solution is to simply replace the existing classpath.jar file with the file from the release.
+Just download the file from https://github.com/modeldriven-hu/lookandfeel/releases/download/1.0.0/classpath.jar
+and overwrite the existing `classpath.jar` with the downloaded one.
+
+### Add flatlaf-2.5.jar to lib 
+
+You need also to add flatlaf-2.5.jar to the `CAMEO_ROOT/lib` folder. The jar file is located in `hu.modeldriven.lookandfeel.zip`
+which you either downloaded from the website our built yourself.
+
 * Copy `flatlaf-2.5.jar` file into the `CAMEO_ROOT/lib`
 
 ## Restart
